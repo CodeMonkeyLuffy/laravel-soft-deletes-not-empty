@@ -1,0 +1,21 @@
+{
+    "name": "codemonkeyluffy/laravel-soft-deletes-not-empty",
+    "description": "SoftDeletesNotEmpty With Unix Timestamp For Laravel5+",
+    "keywords": ["laravel", "eloquent","soft-deletes"],
+    "authors": [
+        {
+            "name": "codemonkeyluffy",
+            "email": "codemonkeyluffy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "CodeMonkeyLuffy\\LaravelSoftDeletes\\Eloquent\\": "src/Eloquent/"
+        }
+    },
+    "license": "MIT"
+}
