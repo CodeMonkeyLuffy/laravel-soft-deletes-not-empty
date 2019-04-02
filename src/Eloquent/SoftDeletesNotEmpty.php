@@ -16,7 +16,7 @@ trait SoftDeletesNotEmpty
      *
      * @return void
      */
-    public static function bootSoftDeletesUnix()
+    public static function bootSoftDeletesNotEmpty()
     {
         static::addGlobalScope(new SoftDeletesNotEmptyScope);
     }
